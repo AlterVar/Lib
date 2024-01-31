@@ -1,0 +1,47 @@
+.carousel-control-prev {
+    opacity: 1;
+    width: 10%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("../images/arrows/hard-arrow-left.svg");
+    width: 40px;
+    height: 40px;
+}
+
+.carousel-control-next {
+    opacity: 1;
+    width: 10%;
+}
+
+.carousel-control-next-icon {
+    background-image: url("../images/arrows/hard-arrow-right.svg");
+    width: 40px;
+    height: 40px;
+}
+
+.accordion-button::after {
+    background-image: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: none;
+}
+
+.ui-accordion-header {
+    position: relative;
+}
+
+.ui-accordion-header-icon {
+    position: absolute;
+    top: calc(50% - 10px);
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    background: url("../images/arrows/arrow-closed.svg") 50% 50% no-repeat;
+    z-index: 1000;
+}
+
+.ui-accordion-header-active .ui-icon.active {
+    background-image: url("../images/arrows/arrow-open.svg");
+}
